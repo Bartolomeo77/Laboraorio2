@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title> Formulario </title>
+</head>
+<meta charset="utf-8">
+<div class="titulo">
+    <title>
+        Formularios en Html 5 - Tecsup
+    </title>
+</div>
+
+<body>
+    <div class="titulo1">
+        <h1>
+            Travel Authorization Form
+        </h1>
+    </div>
+    <div class="titulo2">
+        <h1>Seccion A : Informacion del cliente</h1>
+    </div>
+    <form id="form-order">
+        <p>
+            <label for="Cargo">Cargo </label>
+            <input type="text" name="Cargo" id="Cargo"  >
+        </p>
+        <p>
+            <label for="Nombre"> Nombre </label>
+            <input type="text" name="Nombre" id="Nombre" >
+        </p>
+        <p>
+            <label for="Primer apellido">Primer apellido </label>
+            <input type="text" name="Primer apellido" id="Primer apellido" >
+        </p>
+        <p>
+            <label for="Segundo apellido">Segundo apellido </label>
+            <input type="text" name="Segundo apellido" id="Segundo apellido" >
+        </p>
+        <p>
+            <label for="email"> email </label>
+            <input type="text" name="email" id="email" >
+        </p>
+        <p>
+            <label for="telefono"> Telefono </label>
+            <input type="number" name="telefono" id="telefono" >
+        </p>
+
+
+        <div class="titulo2">
+            <h1> Seccion B : Informacion del viaje</h1>
+        </div>
+        <div class="parte1">
+            <p>
+                <legend>
+                    Selencione una opcion :
+                </legend>
+            <p>
+                <laberl><input type="radio" name="prioridad" value="baja" checked="">Baja </laberl>
+            </p>
+            <p>
+                <laberl><input type="radio" name="prioridad" value="media">media </laberl>
+            </p>
+            <p>
+                <laberl><input type="radio" name="prioridad" value="alta">alta </laberl>
+            </p>
+
+            </p>
+        </div>
+        <div class="parte2">
+            
+            
+            <form id="form-order">
+                <p>
+                    <label for="Cargo">Cargo </label>
+                    <input type="text" name="Cargo" id="Cargo"  >
+                </p>
+                <p>
+                    <label for="Nombre"> Nombre </label>
+                    <input type="text" name="Nombre" id="Nombre" >
+                </p>
+                <p>
+                    <label for="Primer apellido">Primer apellido </label>
+                    <input type="text" name="Primer apellido" id="Primer apellido" >
+                </p>
+                <p>
+                    <label for="Segundo apellido">Segundo apellido </label>
+                    <input type="text" name="Segundo apellido" id="Segundo apellido" >
+                </p>
+                <p>
+                    <label for="email"> email </label>
+                    <input type="text" name="email" id="email" >
+                </p>
+                <p>
+                    <label for="telefono"> Telefono </label>
+                    <input type="number" name="telefono" id="telefono" >
+                </p>
+        </div> 
+        <style>
+            label{
+                width: 120px;
+                display: inline-block;
+            }
+            .titulo1 {
+                color: aliceblue;
+                justify-content: center;
+                background-color: blue;
+                text-align: center;
+                padding: 15px;
+                border: 3px solid black;
+                margin: 1px auto;
+
+            }
+
+            .titulo2 {
+                color: rgb(85, 161, 248);
+
+            }
+            .parte1 {
+                width: 50%;
+                float: right;
+            }
+            .parte2 {
+                width: 50%;
+                float: left;
+            }
+        </style>
+    </form>
+    <div>
+        <p>
+            <label for="username">Nombre de Usuario</label>
+            <input type="text" name="username" id="username">
+        </p>
+        <p>
+            <label for="pass">Contraseña</label>
+            <input type="password" name="pass" id="pass">
+        </p>
+        <input type="submit" name="enviar">
+        
+    </div>
+</body>
+
+</html>
